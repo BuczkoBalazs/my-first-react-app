@@ -1,7 +1,11 @@
-const Beer = () => {
+const Beer = ({info, randomNum}) => {
+    const {title, sub, text} = info
     return (
         <div className="beer">
-            BEER
+            {title}<br></br>
+            {sub}<br></br>
+            {text}
+            <button onClick={() => console.log(`Licked`)}>Lick me!</button>
         </div>
     )
 };
