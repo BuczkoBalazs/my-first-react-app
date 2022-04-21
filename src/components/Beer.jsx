@@ -1,4 +1,4 @@
-const Beer = ({info, randomNum}) => {
+const Beer = ({info}) => {
     const {title, sub, text} = info
     return (
         <div className="beer">
